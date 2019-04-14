@@ -1,0 +1,184 @@
+body
+{
+    background-color: darksalmon;
+    font-family: sans-serif;
+}
+.top-nav-bar
+{
+    height: 100px;/*longueur*/
+    top:0; /*tout en haut*/
+    position: sticky;/*positionnement en adhérence (selon le contenu)*/
+    background-image: url(../images/brownies/free-brownie-vector.png);
+    background-size: 100px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid brown;
+    z-index:2 ;/*chevauchement des elts*/ /*  il ya 2 elets qui vont se mettre l'un sur l'autre qui sont la zone de texte et l'icone de recherche */
+}
+.top-nav-bar2
+{
+    height: 100px;/*longueur*/
+    top:0; /*tout en haut*/
+    position: sticky;/*positionnement en adhérence (selon le contenu)*/
+    background-image: url(../images/fondant/bgf.jpg);
+    background-size: 100px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid brown;
+    z-index:2 ;/*chevauchement des elts*/ /*  il ya 2 elets qui vont se mettre l'un sur l'autre qui sont la zone de texte et l'icone de recherche */
+}
+#logo
+{
+    height: 100px;
+}
+.form-control /*la zone de texte*/
+{
+    margin-top: 9px;
+    margin-left: 30px;
+    border: 1px solid#582900;
+    border-top-left-radius: 20px;  /*arrondir le coté a gauche en haut*/
+    border-bottom-left-radius: 20px;/*arrondir le coté à gauche en bas*/
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: none;
+    
+}
+.input-group-text /*le span (conteneur) qui contient l'icone de recherche*/
+{
+
+border: 1px solid#582900;
+margin: 8.5px 10px 3px 0;
+border-top-left-radius: 0px;  
+border-bottom-left-radius: 0px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+cursor: pointer; /*type du curseur*/
+height: 40px;
+color: chocolate;
+
+
+}
+.search-box
+{
+    display: inline-flex;/*positionnement du span et de la zone de texte*/
+    width: 60%;
+}
+.fa-search /*l'icone*/
+{
+color:#582900;
+}
+.menu-bar /*toute la div (contient le menu)*/
+{
+    width: 40%;
+    height: 57px;
+    float:right;
+    margin-top: 20px;
+}
+.menu-bar ul{
+    display: inline-flex;
+    float:right;
+
+}
+.menu-bar ul li 
+{
+    border-left: 1px solid #fff;
+    list-style-type: none;
+    padding: 15px 35px;
+    text-align: center;
+    background-color: #582900;
+    cursor: pointer;
+}
+.menu-bar ul li a  /*hierarchie :les elts de la liste sont dans a */{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 16px;
+    color: #fff;
+    text-decoration: none;
+
+}
+.fa-shopping-basket
+{
+    margin-right: 5px;
+}
+.fa-shopping-cart
+{
+    margin-right: 5px;
+}
+.categories
+{
+    margin:  50px 0;
+}
+.categories img
+{
+    padding-left: 20px 0;
+   
+    transition: 1s; /*a l'entréee il y'aura un petit mvt des images */
+    cursor: pointer;
+}
+.noir
+{ 
+    margin-left: 20px;
+}
+.amandes
+{
+    margin-left: 20px;
+
+}
+.lait
+{
+    margin-left: 20px;
+
+}
+.categories img:hover{
+    transform:scale(1.1); /*au passage de la souris l'image va s'agrandir*/
+}
+.container1
+{
+    margin-left: 0; /*pour que le bloc soit extremely a gauche*/
+
+}
+.title
+{
+    background:#582900;
+    color: #fff;
+    width: 180px;
+    padding: 4px 1px;
+    height: 40px;
+    
+    margin-bottom: 30px;
+    display: flex;
+}
+.title ::after /*ajout apres l'elt*/{ /*creation du petit triangle ajouté à la fin de l'étiquette*/
+    content: '';/*vide ce qui veut dire que le contenu apres l'element est un espace(pour avoir de l'espace dans l'étiquette)*/
+    border-top: 40px solid  #582900;
+    border-right: 50px solid;
+    position: absolute;
+    display: flex;
+    margin-top: -42.5px; /*j'ai pas arreter de changer la valeur jusqu'a ce que le petit tringle est proprement attaché à l'étiquette*/
+    margin-left: 175px;
+
+}
+.caramel
+{ 
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.mm
+{
+    margin-left: 20px;
+    margin-top: 100px;
+
+}
+.col-md-4/* qd j'ai mis product-info ca n'a pas marché*/
+{
+    text-align: center;
+    
+}
+.fa-eye, .fa-shopping-basket
+{
+    
+    color: #582900;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+    height: 10px;
+}
+

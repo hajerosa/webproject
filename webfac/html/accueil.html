@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Accueil
+        </title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="../css/styleaccueil.css"/>
+    </head>
+    <body id="bod">
+      
+        <ul> 
+            <li><a href="#">ChocoBons</a></li>
+            <li><a href="#">ChocoFlaterie</a>
+             <ul>
+              <li><a href="../html/truffes.html">Truffes</a></li>
+              <li><a href="">tablettes de chocolat</a></li>
+              <li><a href="">Chocoboules</a></li>
+              <li><a href="">oeufs de paques </a></li>
+             </ul>
+            </li>
+            <li><a href="#">Chocodeaux</a>
+             <ul>
+              <li><a href="">coffrets amoureux</a></li>
+              <li><a href="">chocobébé</a></li>
+              <li><a href="">coffretcafé</a></li>
+              <li><a href="">Events</a></li>
+             </ul>
+            </li>
+            <li><a href="#">ChocoCake</a>
+             <ul>
+              <li><a href="../html/fondant.html">Fondant</a></li>
+              <li><a href="../html/brownies.html">Brownies</a></li>
+              <li><a href="">Black velvet</a></li>
+             </ul>
+            </li>
+            <li><a href="#">Nouveautés</a></li>
+           </ul>
+           <div >
+                   
+                  
+                <img src="../images/Logo.png"   alt="logo"/>
+            </div>
+           <div id="sidebar">
+            <div class="toggle-btn" onclick="toggleSidebar()">
+          <span></span> <!--ces 3lignes de span donne l'icone a 3 traits et la classe toggle-btn nous permet d'utiliser ces traits comme un btn normal-->
+          <span></span>
+          <span></span>
+            </div>
+           
+            <ul >
+              <li class="list"><a href=""></a>Home</a> </li>
+              <li class="list" ><a href=""></a>Contact</a></li>
+              <li class="list"><a href=""></a>A propos</a></li>
+            </ul>
+          </div>
+          <div class="container">
+                   
+                  
+                <img src="../images/cooltext321247972219411.png" id="log"  alt="My image"/>
+            </div>
+          <script>
+                function toggleSidebar(){
+                  document.getElementById("sidebar").classList.toggle('active');
+                }
+                </script>
+
+           
+    </body>
+</html>

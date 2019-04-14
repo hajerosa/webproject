@@ -1,0 +1,12 @@
+.top-nav-bar1
+{
+    height: 100px;/*longueur*/
+    top:0; /*tout en haut*/
+    position: sticky;/*positionnement en adhérence (selon le contenu)*/
+    background-image: url(../images/truffes/bg2.jpg);
+    background-size: 100px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid brown;
+    z-index:2 ;/*chevauchement des elts*/ /*  il ya 2 elets qui vont se mettre l'un sur l'autre qui sont la zone de texte et l'icone de recherche */
+}
+

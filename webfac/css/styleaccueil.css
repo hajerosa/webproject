@@ -1,0 +1,83 @@
+#bod
+{
+    background-image: url("../images/5d0d3b163e_96510_verites-chocolat.jpg");
+    background-repeat: no-repeat;
+ 
+  background-size:cover;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;/*on enléve les puces de la liste*/
+    font-family: 'Times New Roman', Times, serif;
+   }
+   
+   ul li {
+    float: right;   /* aligne les elts à dte de son conteneur (les elts de la premiere liste )(la petite liste contient tjrs ses elets verticalement)*/
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    opacity: .8; /*tranparence du menu*/
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+   }
+   
+   ul li a {
+    text-decoration: none; /*les elemt de la grabde et petite liste*/
+    color: white;
+    display: block;
+   }
+   
+   ul li a:hover { /* passage de la souris sur le menu*/
+    background-color: rgb(66, 44, 35);
+   }
+   
+   ul li ul li{ /*accés à la petite liste (arborescenece du css)*/
+    display: none;  /*mise en page:on va cacher la petite liste*/
+   }
+   
+   ul li:hover ul li {
+    display: block; /*la petite liste ne sera visible que lorsqu'on fait passer la souris sur le menu*/
+   }
+   
+#sidebar{
+  position:fixed;
+  width:200px;
+  height:100%;
+  background-color:#151719;
+  left:-200px;
+  transition:all 500ms linear;
+}
+#sidebar.active{
+  left:0px;
+}
+#sidebar ul li{
+  color:rgba(230,230,230,0.9);
+  list-style:none;
+  padding:15px 10px;
+  border-bottom:1px solid rgba(100,100,100,0.3);
+}
+#sidebar .toggle-btn{
+  position:absolute;
+  left:230px;
+  top:20px;
+}
+#sidebar .toggle-btn span{
+  display:block;
+  width:30px;
+  height:5px;
+  background: #151719;
+  margin:5px 0px;
+}
+.list:hover
+{
+background-color:  rgb(66, 44, 35);
+}
+
+
+.container{
+   padding-left: 250px;
+   padding-top: 50px;
+   }
+   
