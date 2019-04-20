@@ -3,7 +3,7 @@ body
     background-color: darksalmon;
     font-family: sans-serif;
 }
-.top-nav-bar
+.top-nav-barbrown
 {
     height: 100px;/*longueur*/
     top:0; /*tout en haut*/
@@ -14,12 +14,78 @@ body
     border-bottom: 3px solid brown;
     z-index:2 ;/*chevauchement des elts*/ /*  il ya 2 elets qui vont se mettre l'un sur l'autre qui sont la zone de texte et l'icone de recherche */
 }
-.top-nav-bar2
+.top-nav-barfon
 {
     height: 100px;/*longueur*/
     top:0; /*tout en haut*/
     position: sticky;/*positionnement en adhérence (selon le contenu)*/
     background-image: url(../images/fondant/bgf.jpg);
+    background-size: 100px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid brown;
+    z-index:2 ;/*chevauchement des elts*/ /*  il ya 2 elets qui vont se mettre l'un sur l'autre qui sont la zone de texte et l'icone de recherche */
+}
+.top-nav-bartruf
+{
+    height: 100px;/*longueur*/
+    top:0; /*tout en haut*/
+    position: sticky;/*positionnement en adhérence (selon le contenu)*/
+    background-image: url(../images/truffes/bg1.jpg);
+    background-size: 100px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid brown;
+    z-index:2 ;/*chevauchement des elts*/ /*  il ya 2 elets qui vont se mettre l'un sur l'autre qui sont la zone de texte et l'icone de recherche */
+}
+.top-nav-bartab
+{
+    height: 100px;/*longueur*/
+    top:0; /*tout en haut*/
+    position: sticky;/*positionnement en adhérence (selon le contenu)*/
+    background-image: url(../images/tablettes/tablettes_ambiance3_rs.jpg);
+    background-size: 100px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid brown;
+    z-index:2 ;/*chevauchement des elts*/ /*  il ya 2 elets qui vont se mettre l'un sur l'autre qui sont la zone de texte et l'icone de recherche */
+}
+.top-nav-barboul
+{
+    height: 100px;/*longueur*/
+    top:0; /*tout en haut*/
+    position: sticky;/*positionnement en adhérence (selon le contenu)*/
+    background-image: url(../images/boules/bg.jpeg);
+    background-size: 100px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid brown;
+    z-index:2 ;/*chevauchement des elts*/ /*  il ya 2 elets qui vont se mettre l'un sur l'autre qui sont la zone de texte et l'icone de recherche */
+}
+.top-nav-barbrcr
+{
+    height: 100px;/*longueur*/
+    top:0; /*tout en haut*/
+    position: sticky;/*positionnement en adhérence (selon le contenu)*/
+    background-image: url(../images/crepes/bg.jpg);
+    background-size: 100px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid brown;
+    z-index:2 ;/*chevauchement des elts*/ /*  il ya 2 elets qui vont se mettre l'un sur l'autre qui sont la zone de texte et l'icone de recherche */
+}
+.top-nav-barbrcof
+{
+    height: 100px;/*longueur*/
+    top:0; /*tout en haut*/
+    position: sticky;/*positionnement en adhérence (selon le contenu)*/
+    background-image: url(../images/chocolat.jpg);
+    background-size: 100px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid brown;
+    z-index:2 ;/*chevauchement des elts*/ /*  il ya 2 elets qui vont se mettre l'un sur l'autre qui sont la zone de texte et l'icone de recherche */
+}
+.top-nav-barenf
+{
+    height: 100px;/*longueur*/
+    top:0; /*tout en haut*/
+    position: sticky;/*positionnement en adhérence (selon le contenu)*/
+    background-image: url(../images/enfants/bg.png);
     background-size: 100px;
     margin-bottom: 20px;
     border-bottom: 3px solid brown;
@@ -145,6 +211,7 @@ color:#582900;
     
     margin-bottom: 30px;
     display: flex;
+    position: sticky;
 }
 .title ::after /*ajout apres l'elt*/{ /*creation du petit triangle ajouté à la fin de l'étiquette*/
     content: '';/*vide ce qui veut dire que le contenu apres l'element est un espace(pour avoir de l'espace dans l'étiquette)*/
@@ -156,17 +223,7 @@ color:#582900;
     margin-left: 175px;
 
 }
-.caramel
-{ 
-    margin-left: 20px;
-    margin-top: 100px;
-}
-.mm
-{
-    margin-left: 20px;
-    margin-top: 100px;
 
-}
 .col-md-4/* qd j'ai mis product-info ca n'a pas marché*/
 {
     text-align: center;
@@ -181,4 +238,25 @@ color:#582900;
     font-size: 20px;
     height: 10px;
 }
+.titleboul /*j'ai refait ce code car j'ai diminué la taille du titre donc la zone sgharett habtet chwaya louta tawa lezemni je regle la position du triangle*/
+{
+    background:#582900;
+    color: #fff;
+    width: 180px;
+    padding: 4px 1px;
+    height: 40px;
+    
+    margin-bottom: 30px;
+    display: flex;
+    position: sticky;
+}
+.titleboul ::after /*ajout apres l'elt*/{ /*creation du petit triangle ajouté à la fin de l'étiquette*/
+    content: '';/*vide ce qui veut dire que le contenu apres l'element est un espace(pour avoir de l'espace dans l'étiquette)*/
+    border-top: 40px solid  #582900;
+    border-right: 50px solid;
+    position: absolute;
+    display: flex;
+    margin-top: -32.5px; /*repositionner le triangle pour la nouvelle taille du titre*/
+    margin-left: 175px;
 
+}

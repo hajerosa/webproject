@@ -1,0 +1,30 @@
+.footer{
+    width: 100%;
+  /*  position: fixed;     /*( sticky aussi)tres importante taatlaa maa lcurseur*/   
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+.footer{
+    bottom: 0; /*tout en bas*/
+}
+.container{
+    width: 80%;
+   /* margin: 0 auto; /* Center the DIV horizontally */
+   
+}
+
+#about
+{ 
+    font-size: 20px;
+    font-weight: bold;
+}
+#footimg
+{
+    margin-left: 800px;
+    margin-top: -75px;
+}
+.fa-map-marker-alt
+{  
+    background-color: #fff;
+}

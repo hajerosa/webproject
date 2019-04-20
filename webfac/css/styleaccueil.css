@@ -1,6 +1,7 @@
 #bod
 {
-    background-image: url("../images/5d0d3b163e_96510_verites-chocolat.jpg");
+    background-image: url("../images/5d0d3b163e_96510_verites-chocolat.jpg"), url("../images/chocolat.jpg");
+    background-attachment: scroll;
     background-repeat: no-repeat;
  
   background-size:cover;
