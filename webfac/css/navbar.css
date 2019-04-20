@@ -205,7 +205,7 @@ color:#582900;
 {
     background:#582900;
     color: #fff;
-    width: 180px;
+    width: 180px; /*on controle les mesurations du div*/
     padding: 4px 1px;
     height: 40px;
     

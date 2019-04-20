@@ -1,4 +1,81 @@
-.para
-{
-    margin-left: 100px;
+.mc
+{ margin-left: 100px;
+    
 }
+h2
+{ 
+   color: #582900;
+}
+span
+{
+    color: #582900;
+    font-weight: bold;
+}
+.commentaire
+{  
+    width: 370px;
+    height: 600px;
+    margin-left: 1150px;
+    margin-top: -550px;
+    border: #582900 1px solid;
+    background-image: url(../images/8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+textarea{  
+    /*display: block;*/
+
+    box-sizing: padding-box;
+   /* overflow: hidden;*/
+   margin-top: 50px;
+   margin-left: 70px;
+    padding: 10px;
+    width: 250px;
+    font-size: 14px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px rgba(black, .3);
+    border: grey solid 1px;
+  }
+  .tit
+  { background-color: white;
+    width: max-content;
+      font-size: 20px;
+      margin-top: 70px;
+      margin-left: 30px;
+      color: #582900;
+      font-weight: bold;
+  }
+  .prix
+  {
+      font-style: italic;
+      margin-left: -370px;
+      font-weight: bold;
+  }
+  .quan
+  {
+      font-style: italic;
+      margin-left: -360px;
+      font-weight: bold;
+      display: inline-flex;/*positionnement du span et de la zone de texte*/
+      
+  }
+  .quan input
+  {
+    border:0;
+      width: 33px;
+      height: 30px;
+      border-radius: 20%; /*j'ai triché et j'ai positionner le border du input et de l'icone sur le border white du input*/
+  }
+  span
+  {
+      border: #582900 1px solid;
+     margin-left: 10px;
+     border-radius: 20%;
+  }
+  .fa-angle-up
+  {
+    border-left: #582900 1px solid;
+    width: 20px;
+    height: 15px;
+  }

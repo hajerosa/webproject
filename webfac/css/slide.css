@@ -1,8 +1,8 @@
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
+.mySlides {display: none} /**/
 img {vertical-align: middle;}
-* {box-sizing:border-box}
+* {box-sizing:border-box} /*boite qui contient le slider*/
 
 /* Slideshow container */
 .slideshow-container {
@@ -10,7 +10,11 @@ img {vertical-align: middle;}
   height: 400px;
   position: relative;
   margin:0;
+ 
+
 }
+
+
 
 /* Hide the images by default */
 /*.mySlides {

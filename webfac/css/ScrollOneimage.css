@@ -1,0 +1,25 @@
+
+@keyframes AutoSlide { /*anime la meme image*/
+	0%, 15%, 100% { /*mouvement dans la meme image*/
+		left: 0px; /*1ère image*/
+	}
+	35%, 50% {
+		left: -150px; /*2ème image*/
+	}
+	
+}
+
+#sContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 450px;
+	margin: 0;            
+	padding: 0;
+	
+	/*CSS3 keyframes animation*/
+	animation-name: AutoSlide;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
