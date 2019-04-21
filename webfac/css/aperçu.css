@@ -49,33 +49,60 @@ textarea{
   .prix
   {
       font-style: italic;
-      margin-left: -370px;
+      margin-left: -360px;
       font-weight: bold;
   }
   .quan
   {
       font-style: italic;
-      margin-left: -360px;
+      margin-left: -300px;
       font-weight: bold;
       display: inline-flex;/*positionnement du span et de la zone de texte*/
-      
-  }
+      margin-top: 20px;
+  
+    }
   .quan input
   {
     border:0;
       width: 33px;
       height: 30px;
       border-radius: 20%; /*j'ai triché et j'ai positionner le border du input et de l'icone sur le border white du input*/
-  }
+      font-weight: bold;
+      
+    }
   span
   {
       border: #582900 1px solid;
-     margin-left: 10px;
+     margin-left: 20px;
      border-radius: 20%;
+     
+     
   }
   .fa-angle-up
   {
-    border-left: #582900 1px solid;
-    width: 20px;
-    height: 15px;
+   
+   
+    
+    margin-left: -10px;
+   padding-top: -20px;
+  }
+  .fa-angle-down
+  {
+    border-top: #582900 1px solid;
+    
+    
+    margin-left: -10px;
+   
+  }
+  .btn-ligh
+  {
+   width: 20px;
+   
+   
+  }
+  .dispo
+  {
+    font-style: italic;
+     
+      font-weight: bold;
   }
