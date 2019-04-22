@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>
-        Nounours
+                Brownies Amandine
         </title>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="../css/navbar.css"/>
@@ -13,9 +13,10 @@
     <link rel="stylesheet" href="../css/zoom.css"/>
     <link rel="stylesheet" href="../css/aperçu.css"/>
     <link rel="stylesheet" href="../css/scroll.css"/>
+    <link rel="stylesheet" href="../css/slide.css"/>
     </head>
     <body>
-            <div class="top-nav-barenf">
+            <div class="top-nav-barbrown">
                     <div class="search-box">
                         <img src="../images/Logo.png" id="logo"/>
                         <input type="text" class="form-control"/>
@@ -31,31 +32,64 @@
                         </div>
                 </div>
                 <div class="row">
-                <div      class="img-hover-zoom" > <!--lorsque j'ai mis cass col-md-4 le zoom n'a pas marché-->
-                        <img src="../images/enfants/nounours-1.jpg "  width="400px" height="500px" />
-                      </div>
+
+                 <!-- Slideshow container -->
+<div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+      <!-- <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="../images/brownies/au lait.jpg" style="width:200%">
+           -<div class="text">Caption Text</div></div>--> 
+        
+      
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="../images/brownies/amandes/13031_w800h600c1cx1502cy2254.jpg" style="width:100%" height="400px">
+         <!--<div class="text">Caption Two</div>--> 
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="../images/brownies/amandes/284632.jpg" style="width:100%"height="400px">
+          <!--<div class="text">Caption Three</div>--> 
+        </div>
+        <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="../images/brownies/amandes/recette-de-faux-brownies_5319591.jpg" style="width:100%"height="400px">
+                <!--<div class="text">Caption Three</div>--> 
+              </div>
+        </div>
+        <script src="../js/slide.js">
+        </script> <!--je l'ai mis ici car qd je sors de la page et je reviens le slide prend du temps à revenir car le script attend le téléchargement de toute la page-->
+
+
+
+
+
+
+
                       <div class="col-md-4 " id="para" >
                          
-                     <h2>Nounours</h2> 
+                     <h2> Brownies Amandine</h2> 
                      <div class="etoile"> 
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
                             <i class="fa fa-star-half-o"></i>
                             </div>
-                  <p class="font-italic">Les Deux Nounours : Un maximum de douceur pour ces deux oursons délicats et délicieux. 
-                      150g de pur tendresse pour faire un cadeau de Noël tout doux
-                       <div class="prix"> <i class="fa fa-tags"></i> Prix:05.00Dt</div>
+                  <p class="font-italic"> cette célèbre pâtisserie américaine sera votre meilleure alliée pour des goûters gourmands en famille ou entre amis. Sa texture incroyablement fondante
+                       et son bon goût de chocolat au lait  s'équilibrera parfaitement avec le côté croquant des amandes.
+                       100g.</p>
+                       <div class="prix"> <i class="fa fa-tags"></i> Prix: 02.00Dt</div>
                        <div class="quan"> <i class="fa fa-cart-plus"></i> Quantité: <span>
-                           
                             <form name="calc"><input class="input"
                     type="text" value="1" name="result" readonly><button type="button" class="btn btn-ligh" title="aperçu" ><i class="fa fa-angle-up" onclick="myFunction1()"></i><i class="fa fa-angle-down"onclick="myFunction2()"></i></button></form></span> </div>
-                    
-                </div>
+                    </div>
+                     
                 <div class="dispo"> Disponibilité:  </div>
                     </div>
-                    
-                    
                     <div class="commentaire">
                       <div class="tit"><i class="fa fa-comments"></i> Vos Commentaires</div>  
                         <form >
@@ -90,6 +124,7 @@
                             </div>
                             </div>
      <script src="../js/textarea.js"> </script>   
-     <script src="../js/quantité.js"> </script>            
+     <script src="../js/quantité.js"> </script> 
+                    
     </body>
 </html>

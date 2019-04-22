@@ -152,6 +152,7 @@ color:#582900;
     text-align: center;
     background-color: #582900;
     cursor: pointer;
+    
 }
 .menu-bar ul li a  /*hierarchie :les elts de la liste sont dans a */{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -159,12 +160,19 @@ color:#582900;
     font-weight: 16px;
     color: #fff;
     text-decoration: none;
+    transition: 0.2s linear;
 
 }
+
+
+
+
+
 .fa-shopping-basket
 {
     margin-right: 5px;
 }
+i:hover  { transform: scale(2); }
 .fa-shopping-cart
 {
     margin-right: 5px;
