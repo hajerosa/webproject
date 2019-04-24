@@ -1,6 +1,6 @@
 #bod
 {
-    background-image: url("../images/5d0d3b163e_96510_verites-chocolat.jpg"), url("../images/chocolat.jpg");
+    background-image: url("../images/5d0d3b163e_96510_verites-chocolat.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
  
@@ -39,7 +39,7 @@ ul {
    }
    
    ul li:hover ul li {
-    display: block; /*la petite liste ne sera visible que lorsqu'on fait passer la souris sur le menu*/
+    display: block; /*la petite liste ne sera visible que lorsqu'on fait passer la souris sur le menu.si je l'enléve je ne pourrais plus accéder à la petite liste (ki nenzel ma tahbatch el liste)*/
    }
    
 #sidebar{
@@ -60,18 +60,9 @@ ul {
   border-bottom:1px solid rgba(100,100,100,0.3);
   height: max-content;
 }
-#sidebar .toggle-btn{
-  position:absolute;
-  left:230px;
-  top:20px;
-}
-#sidebar .toggle-btn span{
-  display:block;
-  width:30px;
-  height:5px;
-  background: #151719;
-  margin:5px 0px;
-}
+
+
+
 .list:hover
 {
 background-color:  rgb(66, 44, 35);
@@ -79,6 +70,7 @@ background-color:  rgb(66, 44, 35);
 
 
 .container{
+  position:absolute; /*je l'ai mis au hasard pour enlever le carré noir derriére les lignes home ou chwaya a propps*/
    padding-left: 250px;
    padding-top: 50px;
    margin-left: 50px;

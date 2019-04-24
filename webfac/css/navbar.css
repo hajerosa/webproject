@@ -30,7 +30,7 @@ body
     height: 100px;/*longueur*/
     top:0; /*tout en haut*/
     position: sticky;/*positionnement en adhérence (selon le contenu)*/
-    background-image: url(../images/truffes/bg1.jpg);
+    background-image: url(../images/truffes/back.jpg);
     background-size: 100px;
     margin-bottom: 20px;
     border-bottom: 3px solid brown;

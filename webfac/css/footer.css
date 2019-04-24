@@ -6,6 +6,8 @@
     color: #fff;
 }
 .footer{
+  /*  position: fixed;/*pour que le footer reste en bas car si je le met dans une autre page vide il se mettera en haut je lui met fixed pour qu'il reste à sa place*/
+   
     bottom: 0; /*tout en bas*/
 }
 .container{

@@ -3,8 +3,11 @@
     <head>
         <title> Accueil
         </title>
+        
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="../css/styleaccueil.css"/>
+
+        
         <link rel="shortcut icon" type="image/x-icon" href="../images/Logo.png" /> <!--logo dans l'onglet-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/> <!--pour l'icone du site font awsome cdn--> 
     </head>
@@ -38,7 +41,7 @@
 
       
         <ul> 
-            <li><a href="#">ChocoBons</a></li>
+            <li><a href="#">ChocoBons</a> </li>
             <li><a href="#">ChocoFlaterie</a>
              <ul>
               <li><a href="../html/truffes.html">Truffes</a></li>
@@ -64,24 +67,21 @@
             </li>
             <li><a href="#">Nouveautés</a></li>
            </ul>
+           
            <div >
                    
                   
                 <img src="../images/Logo.png"   alt="logo"/>
             </div>
            <div id="sidebar">
-            <div class="toggle-btn" onclick="toggleSidebar()">
-          <span></span> <!--ces 3lignes de span donne l'icone a 3 traits et la classe toggle-btn nous permet d'utiliser ces traits comme un btn normal-->
-          <span></span>
-          <span></span>
-            </div>
+            
            
             <ul >
               <li class="list"><a href=""><i class="fa fa-home"></i></a>Home</a> </li>
               <li class="list" ><a href=""><i class="fa fa-address-book"></i></a>Contact</a></li>
               <li class="list"><a href=""><i class="fa fa-id-card"></i></a>A propos</a></li>
               <li class="list" ><a href="../html/login.html"><i class="fa fa-user"></i></a>Se connecter</li>
-              <li class="list"><a href="../html/signup.html"><i class="fa fa-unlock-alt"></i></a>sinscrire</a></li>
+              <li class="list"><a href="../html/signup.html"><i class="fa fa-unlock-alt"></i></a>s'inscrire</a></li>
             </ul>
             <div class="container">
                    
@@ -90,11 +90,7 @@
             </div>
           </div>
           
-          <script>
-                function toggleSidebar(){
-                  document.getElementById("sidebar").classList.toggle('active');
-                }
-                </script>
+          
 
            
     </body>

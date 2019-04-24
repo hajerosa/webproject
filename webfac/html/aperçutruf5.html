@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+                Truffes fraises
+        </title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="../css/navbar.css"/>
+      <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/> <!--pour l'icone du site font awsome cdn-->
+    <link rel="stylesheet" href="../css/footer.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/Logo.png" /> <!--logo dans l'onglet-->
+    <link rel="stylesheet" href="../css/zoom.css"/>
+    <link rel="stylesheet" href="../css/aperçu.css"/>
+    <link rel="stylesheet" href="../css/scroll.css"/>
+    </head>
+    <body>
+            <div class="top-nav-bartruf">
+                    <div class="search-box">
+                        <img src="../images/Logo.png" id="logo"/>
+                        <input type="text" class="form-control"/>
+                        <span class="input-group-text"><i class="fa fa-search" ></i></span> <!--icone de recherche du site Font awsome icons-->
+                    </div>
+                    <div class="menu-bar">
+                            <ul>
+                                      <li><a href=""><i class="fa fa-shopping-cart"></i> Card</a></li>
+                                      <li><a href="../html/signup.html"><i class="fa fa-user-plus"></i>  s'inscrire</a></li>
+                                      <li><a href="../html/login.html"><i class="fa fa-user"></i></i> se connecter </a></li>
+                            </ul>
+                        
+                        </div>
+                </div>
+                <div class="row">
+                <div      class="img-hover-zoom" > <!--lorsque j'ai mis cass col-md-4 le zoom n'a pas marché-->
+                        <img src="../images/truffes/fram1.jpg"  width="400px" height="500px" />
+                      </div>
+                      <div class="col-md-4 " id="para" >
+                         
+                     <h2>Truffes friase</h2> 
+                     <div class="etoile"> 
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            </div>
+                  <p class="font-italic"> Ces truffes à la fraise sont délicieuses, élégantes et différentes. Divinement parfumée à la vraie framboise
+                      100g
+                       <div class="prix"> <i class="fa fa-tags"></i> Prix:05.00Dt</div>
+                       <div class="quan"> <i class="fa fa-cart-plus"></i> Quantité: <span>
+                            <form name="calc"><input class="input"
+                    type="text" value="1" name="result" readonly><button type="button" class="btn btn-ligh" title="aperçu" ><i class="fa fa-angle-up" onclick="myFunction1()"></i><i class="fa fa-angle-down"onclick="myFunction2()"></i></button></form></span> </div>
+                    </div>
+                     
+                <div class="dispo"> Disponibilité:  </div>
+                    </div>
+                    <div class="commentaire">
+                      <div class="tit"><i class="fa fa-comments"></i> Vos Commentaires</div>  
+                        <form >
+                                <textarea class='autoExpand' rows='3' data-min-rows='3' placeholder=' Votre Commentaire'></textarea>
+                        </form>
+                    </div>
+                    <div class="footer">
+                            <div class="container"><!--pour avoir plus de controle sur le copnetnu et ne pas mettre toutes les propriéts dans le meme code-->
+                                <div class="row">
+                                   
+                                    <div class="col-md-4 " > <i class="fa fa-street-view"></i> 21 Bouchoucha City</div>
+                                    <!--qd j'ai mis une icone qui n'avait pas fas au lieu de fa ca ne se lisait meme pas -->
+                                    <!--mettre espace entre la balise i et l'écriture-->
+                                    <div class="col-md-4 " id="about">Notre compagnie</div>
+                                    
+                                
+                            
+                            </div>
+                            <div class="row">
+                                    <div class="col-md-4 " > <i class="fa fa-phone-square"></i> 619 55724050</div> <!--our que ca marche j'ai changé fas en fa-->
+                                    <div class="col-md-4 ">Renseignemnts</div>
+                                 </div>
+                                 <div class="row">
+                                        <div class="col-md-4 " > <i class="fa fa-envelope"></i> www.CHOCOHOLICS@gmail.com</div>
+                                        <div class="col-md-4 ">Historique</div>
+                                        
+                            
+                            
+                                 </div>   
+                                 <div  id="footimg"><img src="../images/Logo.png"/></div>
+                                 
+                            </div>
+                            </div>
+     <script src="../js/textarea.js"> </script>   
+     <script src="../js/quantité.js"> </script>            
+    </body>
+</html>
